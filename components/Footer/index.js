@@ -4,7 +4,7 @@
 const Footer = () => {
     return (
         <>
-            <div>
+            <div className="footer">
             © Marianela De Martino - Universidad Maimonides - Programacion multimedial 3 - 2020
             </div>
         </>
