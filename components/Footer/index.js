@@ -1,11 +1,11 @@
-import { Foot } from './styled'
+
 
 
 const Footer = () => {
     return (
         <>
             <div>
-                Footer
+            © Marianela De Martino - Universidad Maimonides - Programacion multimedial 3 - 2020
             </div>
         </>
 

@@ -10,4 +10,4 @@ const Foot = styled.div`
     text-align: center;
   `
 
-export { Foot };
+export default Foot ;

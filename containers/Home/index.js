@@ -1,12 +1,26 @@
 import { Basic } from 'components'
 
+
 const Home = () => {
     return (
         <div>
-            HOME
-            <Basic />
+            <p>Pone una cancion para buscar pistas relacionadas!</p>
+            <div class="search-container">
+                <form action="/action_page.php">
+                    <input type="text" placeholder="Search.." name="search"></input>
+                    <button type="submit">Submit</button>
+                </form>
+
+            <p>
+                Canciones relacionadas:
+            </p>
+            </div>
+
+
         </div>
     )
 }
 
 export default Home
+
+//BASIC es el form
