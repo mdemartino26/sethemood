@@ -16,6 +16,9 @@ const Header = () => {
               <a href="/login" className="ahref">Login</a>
               <a href="/signup" className="ahref">Sign Up</a>
             </div>
+            <div className="dashboard">
+              <a href="/dashboard" className="ahref">dashboard</a>
+            </div>
             </div>
             </div>
             </Cabeza>
