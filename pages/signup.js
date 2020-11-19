@@ -1,10 +1,10 @@
-import Basic from "../components/Form"
+import SignupForm from "../components"
 
 const Signup = () => {
  return (
      <div>
          Sign Up
-         <Basic/>
+         <SignupForm/>
      </div>
  )
 }

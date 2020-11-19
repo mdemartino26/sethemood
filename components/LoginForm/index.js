@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Formik, Form, Field, ErrorMessage } from 'formik';
 import axios from 'axios';
-import { Container } from './styles'
+import { Container } from './styled'
 import { useAuth } from 'lib/useUser';
 
 const LoginForm = () => {
@@ -15,7 +15,11 @@ const LoginForm = () => {
                 validate={values => {
                     const errors = {};
                     if (!values.email) {
-                        errors.email = 'Required';
+                      errors.email = "Required";
+                    } else if (
+                      !/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i.test(values.email)
+                    ) {
+                      errors.email = "Invalid email address";
                     }
                     if (!values.password) {
                         errors.password = 'Required';
@@ -64,7 +68,7 @@ const LoginForm = () => {
                             <ErrorMessage name="password" component="div" />
                         </div>
                         <button type="submit" disabled={isSubmitting}>
-                            Submit
+                            Login
                         </button>
                     </Form>
                 )}

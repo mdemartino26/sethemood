@@ -1,4 +1,3 @@
-import { Basic } from 'components'
 
 
 const Home = () => {

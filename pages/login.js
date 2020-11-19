@@ -1,12 +1,12 @@
-import LoginForm from "../components/LoginForm"
+import Login from "../containers/Login"
 
-const Login = () => {
+const Iniciar = () => {
  return (
      <div>
-         Login
-         <LoginForm/>
+         
+         <Login/>
      </div>
  )
 }
 
-export default Login
+export default Iniciar
