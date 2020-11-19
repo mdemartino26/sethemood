@@ -5,7 +5,7 @@ const SearchBar = ({ children, ...props }) => {
     return (
         <Estilos>
         <div className="buscar">
-            <div className="Div-Bar">
+            <div className="bar">
                 
                 <input placeholder="Buscar una cancion" className="input"/>
              </div>

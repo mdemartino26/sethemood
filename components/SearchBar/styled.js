@@ -7,7 +7,7 @@ const Estilos = styled.div`
     border-radius: 50px;
     background-color: #272D2D;
     color: #EF4267;
-    width: 880px;
+    width: 100%;
     min-height: 60px;
     line-height: 34px;
     border: none;
@@ -28,6 +28,11 @@ const Estilos = styled.div`
 
 .buscar{
     display:flex;
+    width:80%;
+}
+
+.bar{
+    width:70%;
 }
 
 `
