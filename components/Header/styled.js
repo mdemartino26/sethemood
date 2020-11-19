@@ -17,6 +17,10 @@ const Estilos = styled.div`
     width:80%;
     margin: 0 auto;
     display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
 }
 
  .titulos{
