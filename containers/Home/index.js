@@ -1,3 +1,4 @@
+import SearchBar from "../../components/SearchBar"
 
 
 const Home = () => {
@@ -5,11 +6,8 @@ const Home = () => {
         <div>
             <p>Pone una cancion para buscar pistas relacionadas!</p>
             <div class="search-container">
-                <form action="/action_page.php">
-                    <input type="text" placeholder="Nombre de la cancion" name="search"></input>
-                    <button type="submit">Submit</button>
-                </form>
-
+                
+            <SearchBar></SearchBar>
             <p>
                 Canciones relacionadas:
             </p>

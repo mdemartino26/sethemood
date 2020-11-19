@@ -1,7 +1,19 @@
+import { Estilos } from './styled'
 
-const SearchBar = () => {
-<form action="/action_page.php">
-                    <input type="text" placeholder="Nombre de la cancion" name="search"></input>
-                    <button type="submit">Submit</button>
-</form>
+const SearchBar = ({ children, ...props }) => {
+    //const [searchData, setSearchData] = useState("");
+    return (
+        <Estilos>
+        
+            <div className="Div-Bar">
+                
+                <input placeholder="Buscar una cancion" className="input"/>
+             </div>
+                <button className="boton">
+                    Buscar
+                </button>
+        </Estilos>
+    )
 }
+
+export default SearchBar;
