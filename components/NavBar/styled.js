@@ -18,6 +18,10 @@ a{
     color:white;
 } 
 
+#log { 
+    color:pink
+}
+
 
 `
 

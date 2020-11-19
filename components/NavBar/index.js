@@ -9,13 +9,17 @@ export default function NavBar() {
             <ul>
                 {!auth.user ?
                     <>
+                        <li><Link href="/about"><a>About</a></Link></li>
                         <li><Link href="/signup"><a>Sign Up</a></Link></li>
-                        <li><Link href="/login"><a>Login</a></Link></li>
+                        <li  id="log"><Link href="/login" id="log"><a>Login</a></Link></li>
+                        
                     </>
                     :
                     <>
                         <li><Link href="/dashboard"><a>Dashboard</a></Link></li>
-                        <li><Link href="/"><a onClick={() => auth.logout()}>Logout</a></Link></li>
+                        <li><Link href="/about"><a>About</a></Link></li>
+                        <li  id="log"><Link href="/"><a onClick={() => auth.logout()}>Logout</a></Link></li>
+                        
                     </>
                 }
             </ul>

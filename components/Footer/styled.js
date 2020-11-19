@@ -11,6 +11,12 @@ const Estilos = styled.div`
     text-align: center;
     color: white;
     }
+
+  font-family:VarelaRound-Regular;
+  @font-face {
+        font-family: VarelaRound-Regular;  
+        src: url(VarelaRound-Regular.ttf) format('truetype');
+        }
 `
 
 export { Estilos };
