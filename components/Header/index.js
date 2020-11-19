@@ -6,14 +6,16 @@ const Header = () => {
     return (
         <>
         <Cabeza>
-            <div >
+            <div className="styled">
             <Head></Head>
+            <div className="headerstyled">
             <div className="titulo">
-               <a href ="/" ><h1> Set the Mood </h1></a>
+               <a href ="/" className="ahref"><h1> Set the Mood </h1></a>
             </div>
             <div className="sesion">
-              <a href="/login">Login</a>
-              <a href="/signup">Sign Up</a>
+              <a href="/login" className="ahref">Login</a>
+              <a href="/signup" className="ahref">Sign Up</a>
+            </div>
             </div>
             </div>
             </Cabeza>

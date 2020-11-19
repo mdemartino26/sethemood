@@ -8,6 +8,7 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
     Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
     sans-serif;
+  background-color:#26CE6C;
 }
 
 h1{ color:#000;}
