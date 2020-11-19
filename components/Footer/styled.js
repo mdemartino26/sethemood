@@ -6,7 +6,7 @@ const Estilos = styled.div`
     position: absolute;
     bottom: 0;
     width: 100%;
-    height: 10vh;
+    height: 5vh;
     background: #272D2D;
     text-align: center;
     color: white;

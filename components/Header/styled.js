@@ -4,6 +4,7 @@ import styled from "styled-components";
 const Estilos = styled.div`
 .styled{
    width: 100%;
+   height:15vh;
     background-color: #272D2D;
     display: flex;
     -webkit-box-pack: justify;
