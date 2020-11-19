@@ -21,6 +21,7 @@ const Estilos = styled.div`
     min-height: 60px; 
     line-height: 34px; 
     border:none;
+    opacity:1;
 }
 
 `
