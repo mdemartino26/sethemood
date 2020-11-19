@@ -5,9 +5,13 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+  font-family: VarelaRound-Regular, 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
     Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
     sans-serif;
+    @font-face {
+        font-family: VarelaRound-Regular;  
+        src: url(VarelaRound-Regular.ttf) format('truetype');
+        }
   background-color:#26CE6C;
 }
 
