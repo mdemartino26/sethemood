@@ -3,8 +3,13 @@ import styled from "styled-components";
 
 const Estilos = styled.div`
 .styled{
-    display:flex;
+   width: 100%;
     background-color: #272D2D;
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
     }
     
 
@@ -15,7 +20,7 @@ const Estilos = styled.div`
 }
 
  .titulos{
-    width:50%;
+    width:30%;
     color: white;
     }
 
@@ -24,6 +29,8 @@ const Estilos = styled.div`
    color:white;
    margin-left: 1em;
 }
+
+
 
  h1{
     text-align:right;

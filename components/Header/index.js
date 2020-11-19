@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import NavBar from '../NavBar'
 import {Estilos as Cabeza} from './styled';
 
 
@@ -12,13 +13,7 @@ const Header = () => {
             <div className="titulo">
                <a href ="/" className="ahref"><h1> Set the Mood </h1></a>
             </div>
-            <div className="sesion">
-              <a href="/login" className="ahref">Login</a>
-              <a href="/signup" className="ahref">Sign Up</a>
-            </div>
-            <div className="dashboard">
-              <a href="/dashboard" className="ahref">dashboard</a>
-            </div>
+            <NavBar/>
             </div>
             </div>
             </Cabeza>
