@@ -3,7 +3,6 @@ import styled from "styled-components";
 
 const Estilos = styled.div`
 .styled{
-   position: fixed;
    width: 100%;
    height:15vh;
     background-color: #272D2D;

@@ -9,9 +9,7 @@ const Home = () => {
           
                 
             <SearchBar></SearchBar>
-            <p className="texto">
-                Canciones relacionadas:
-            </p>
+            
         
 
 
