@@ -1,12 +1,11 @@
-import SignupForm from "../components"
+import Signup from "../containers/SingUp"
 
-const Signup = () => {
+const Acceso = () => {
  return (
      <div>
-         Sign Up
-         <SignupForm/>
+        <Signup/>
      </div>
  )
 }
 
-export default Signup
+export default Acceso

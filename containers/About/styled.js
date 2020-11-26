@@ -4,7 +4,7 @@ import styled from "styled-components";
 const Estilos = styled.div`
  .about{
     font-size: 2em;
-    color: white;
+    
     text-align:center;
  }
 `

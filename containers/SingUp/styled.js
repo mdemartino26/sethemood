@@ -1,11 +1,11 @@
   
 import styled from "styled-components";
 
-const Estilos = styled.div`
+const SingUp = styled.div`
 
 h1{
     font-size:2em;
-   
+    color:white;
 }
 
 `
@@ -13,4 +13,4 @@ h1{
 
 
 
-export {Estilos}
+export {SingUp}
