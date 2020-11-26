@@ -12,7 +12,7 @@ const SearchBarra = (props) => {
   return (
 
     <>
-     
+      
       <SearchBar
         placeholder="Artista"
         onChange={(event) => setArtistName(event.target.value)}
