@@ -1,14 +1,14 @@
-import SearchBar from "../../components/SearchBar"
+import SearchBarra from "../../components/SearchBar"
 import { Container } from './styled'
 
 const Home = () => {
     return (
         <Container>
         <div>
-            <p className="texto">Pone una cancion para buscar pistas relacionadas!</p>
+            <p className="texto">Pone un artista y encontra relacionados!</p>
           
                 
-            <SearchBar></SearchBar>
+            <SearchBarra></SearchBarra>
             
         
 

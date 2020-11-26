@@ -1,6 +1,8 @@
-import { Estilos } from './styled'
+import { SearchBar,  Button} from './styled'
+  
+import React, { useState, useEffect } from "react";
 
-const SearchBar = (props) => {
+const SearchBarra = (props) => {
    
 
 
@@ -10,12 +12,19 @@ const SearchBar = (props) => {
   return (
 
     <>
-      
-    
-
+     
+      <SearchBar
+        placeholder="Artista"
+        onChange={(event) => setArtistName(event.target.value)}
+      ></SearchBar>
+       <Button onClick=''>
+        Search 
+      </Button>
+     
     </>
+   
   );
 };
 
 
-export default SearchBar;
+export default SearchBarra;

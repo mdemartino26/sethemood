@@ -1,40 +1,26 @@
-  
+
 import styled from "styled-components";
 
-const Estilos = styled.div`
 
-.input{
-    border-radius: 50px;
-    background-color: #272D2D;
-    color: #EF4267;
-    width: 100%;
-    min-height: 60px;
-    line-height: 34px;
+
+const SearchBar = styled.input`
+    padding: 10px;
+    font-size: 2em;
+    background-color: rgb(38 206 108);
     border: none;
-    padding: 20px 20px!important;
-}
-
-.boton{
-    border-radius: 50px;
-    background-color: #272D2D;
-    color: #EF4267;
-    width: 25%;
-    min-height: 60px;
-    line-height: 34px;
-    border: none;
-    opacity: 1;
-    padding: 0%;
-}
-
-.buscar{
-    display:flex;
-    width:80%;
-}
-
-.bar{
-    width:70%;
-}
+    border-bottom: 1px solid black;
+    margin-bottom: 30px;
 
 `
 
-export {Estilos}
+const Button = styled.button`
+    background-color: rgba(20,20,20,0.5);
+    font-size:1em;
+    margin: 0 auto;
+`
+
+
+
+
+
+export { SearchBar, Button}
