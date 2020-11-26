@@ -1,12 +1,10 @@
-  
 import styled from "styled-components";
 
 const Estilos = styled.div`
- .about{
-    font-size: 2em;
-    color: white;
-    text-align:center;
- }
+    width: 80%;
+    margin: 0 auto;
+    font-size:1.5em;
+    color:white;
 `
 
 export { Estilos };

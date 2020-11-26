@@ -1,11 +1,13 @@
 import {Estilos as Sobre} from './styled';
+import Info from '../../components/Info'
 
 
 const About = () => {
     return (
         <>
         <Sobre>
-            <p>About</p>
+            <p className='about'>About</p>
+            <Info/>
         </Sobre>
         </>
 

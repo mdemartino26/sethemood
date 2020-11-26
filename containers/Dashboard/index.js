@@ -1,7 +1,7 @@
-
 import { Container } from './styled'
 import Perfil from '../../components/Perfil'
 import SpotifyProfile from '../../components/User'
+
 
 const Dashboard = () => {
     return (

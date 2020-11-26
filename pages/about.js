@@ -1,9 +1,9 @@
-import Dashboard from "../containers/Dashboard"
+import About from "../containers/About"
 
-const MiPerfil = () => {
+const Sobre = () => {
  return (
-     <Dashboard/>
+     <About/>
  )
 }
 
-export default MiPerfil
+export default Sobre
