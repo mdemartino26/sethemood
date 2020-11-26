@@ -15,7 +15,7 @@ var cookieParser = require('cookie-parser');
 
 var client_id = 'b7060431aad444dfb62577242ca0c809'; // Your client id
 var client_secret = '71d56da75df0426f8a0fdfc35eeb8a9d'; // Your secret
-var redirect_uri = 'http://localhost:3000/'; // Your redirect uri
+var redirect_uri = 'https://sethemood.vercel.app/dashboard/'; // Your redirect uri
 
 /**
  * Generates a random string containing numbers and letters
