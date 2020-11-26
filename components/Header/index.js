@@ -11,7 +11,7 @@ const Header = () => {
             <Head></Head>
             <div className="headerstyled">
             <div className="titulo">
-               <a href ="/" className="ahref"><h1> Set the Mood </h1></a>
+               <a href ="https://sethemood.vercel.app/" className="ahref"><h1> Set the Mood </h1></a>
             </div>
             <NavBar/>
             </div>
