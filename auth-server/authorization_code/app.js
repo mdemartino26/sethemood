@@ -15,7 +15,7 @@ var cookieParser = require('cookie-parser');
 
 var client_id = 'b7060431aad444dfb62577242ca0c809'; // Your client id
 var client_secret = '71d56da75df0426f8a0fdfc35eeb8a9d'; // Your secret
-var redirect_uri = 'http://localhost:3000/callback'; // Your redirect uri
+var redirect_uri = 'http://localhost:3000/'; // Your redirect uri
 
 /**
  * Generates a random string containing numbers and letters
@@ -104,7 +104,7 @@ app.get('/callback', function(req, res) {
         });
 
         // we can also pass the token to the browser to make requests from there
-        res.redirect('/#' +
+        res.redirect('http://localhost:3000/#' +
           querystring.stringify({
             access_token: access_token,
             refresh_token: refresh_token
@@ -143,5 +143,5 @@ app.get('/refresh_token', function(req, res) {
   });
 });
 
-console.log('Listening on 3000');
-app.listen(3000);
+console.log('Listening on 8888');
+app.listen(8888);
